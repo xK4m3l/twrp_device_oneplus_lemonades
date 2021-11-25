@@ -15,14 +15,14 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := lemonades
+PRODUCT_RELEASE_NAME := OnePlus9R
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
-PRODUCT_NAME := aosp_$(PRODUCT_DEVICE)
+PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
 PRODUCT_BRAND := oneplus
 PRODUCT_MODEL := LE2101
 PRODUCT_MANUFACTURER := oneplus

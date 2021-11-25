@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lemonades.mk
+    $(LOCAL_DIR)/twrp_OnePlus9R.mk
 
